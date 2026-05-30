@@ -11,13 +11,19 @@ I work at **SIL Global** on language technology, with a focus right now on makin
 **[FlexToolsMCP](https://github.com/MattGyverLee/FlexToolsMCP)** — An MCP server that lets Claude, Copilot, or Gemini write FLExTools scripts and manipulate FieldWorks lexicon data in natural language. Indexes ~1,400 LibLCM/FlexLibs functions so an AI can actually find the right call. Built in connection with SIL's AI Integration Advisory Board.
 > *"Delete any sense with 'q' in the gloss" → AI generates, tests, and runs the operation.*
 
+**[FLExTools](https://github.com/MattGyverLee/flextools)** — Python scripting utility for SIL FieldWorks Language Explorer. The host environment FlexToolsMCP targets — every module the MCP generates ultimately runs here.
+
 **[Prestige](https://github.com/MattGyverLee/prestige)** — A desktop + PWA player for **Basic Oral Language Documentation (BOLD)** corpora. Loads a SayMore session, shows synchronized video + multi-track waveforms + ELAN annotations, and runs offline so community teams can share oral histories without installing dev tooling. [Background paper (PhD defense)](https://mattgyverlee.github.io/docs/Matthew%20Lee%20Defense%20Copy.pdf).
+
+**[Keyman](https://keyman.com)** — Open-source cross-platform keyboard input system supporting 2,000+ languages across Android, iOS, Windows, macOS, Linux, and the web. I contribute validation and parsing tooling and have been making the ecosystem AI-assistable.
+
+**[Keyboard App Builder](https://software.sil.org/keyboardappbuilder/)** — SIL tool that wraps Keyman keyboards into branded Android apps so language communities can publish their own keyboards on Google Play. *(Repo is private; link goes to the product page.)*
 
 ---
 
 #### Also worth a look
 
-- **[flexlibs](https://github.com/MattGyverLee/flexlibs)** — Python library for FieldWorks Language Explorer projects. The foundation FlexToolsMCP indexes.
+- **[flexlibs](https://github.com/MattGyverLee/flexlibs)** — Python library for FLEx projects. My **v2.0** rewrite adds comprehensive **Operations classes** (CRUD APIs organized by FLEx domain: Grammar, Lexicon, Texts & Words, Notebook, Lists, System), and **v2.2 Wrapper Classes + Smart Collections** that handle polymorphic FieldWorks types automatically — no more manual `ClassName` checks or casting. ~1,400 functions, fully backward-compatible with v1.x. This is the foundation FlexToolsMCP indexes.
 - **[KeymanMCP](https://github.com/MattGyverLee/KeymanMCP)** & **[ParseKB](https://github.com/MattGyverLee/ParseKB)** — Making Keyman keyboard development AI-assistable; parsing and converting between keyboard formats.
 
 ---

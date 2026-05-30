@@ -2,14 +2,19 @@
 
 I build tools that bridge AI and the long tail of language work — software for linguists, Bible translators, and language communities who don't usually get first-class tooling.
 
-I work at **SIL Global** on language technology, with a focus right now on making domain-specific software *agent-native* via the Model Context Protocol (MCP).
+I work at **SIL Global** in language technology, with a focus right now on making domain-specific software *agent-native* via the Model Context Protocol (MCP).
 
 ---
 
 #### What I'm working on
 
-**[FlexToolsMCP](https://github.com/MattGyverLee/FlexToolsMCP)** — An MCP server that lets Claude, Copilot, or Gemini write FLExTools scripts and manipulate FieldWorks lexicon data in natural language. Indexes ~1,400 LibLCM/FlexLibs functions so an AI can actually find the right call. Built in connection with SIL's AI Integration Advisory Board.
-> *"Delete any sense with 'q' in the gloss" → AI generates, tests, and runs the operation.*
+**[FLExToolsMCP](https://github.com/MattGyverLee/FlexToolsMCP)** — An MCP server that lets Claude, Copilot, or Gemini write FLExTools scripts and manipulate FieldWorks lexicon data in natural language. Indexes ~1,400 LibLCM/FlexLibs functions so an AI can actually find the right call. Built in connection with SIL's AI Integration Advisory Board.
+
+FLExToolsMCP can hanfle requests as small as: 
+> *"Replace any instance of `k` with `c` in the lexeme form" → AI generates, tests, and runs the operation.*
+
+Or as large as:
+> *"Build for me a 2000 word sample FLEx lexicon for Swahili, complete with the necessary affixes set up the the parser with rules to handle phonological changes.*
 
 **[FLExTools](https://github.com/MattGyverLee/flextools)** — Python scripting utility for SIL FieldWorks Language Explorer. The host environment FlexToolsMCP targets — every module the MCP generates ultimately runs here.
 

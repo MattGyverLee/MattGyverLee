@@ -1,4 +1,4 @@
-### Hi, I'm Matt Lee
+### Hi, I'm Matthew Lee
 
 I build tools that bridge AI and the long tail of language work — software for linguists, Bible translators, and language communities who don't usually get first-class tooling.
 
